@@ -12,7 +12,7 @@ If your guess is worng:
 ![Wrong img](/images/wrong.png)
 
 If your guess is correct:
-![Correct img](/images/correct.png)
+![Correct img](/images/Correct.png)
 
 If your guess is invalid:
 ![Inavlid img](/images/invalid.png)
