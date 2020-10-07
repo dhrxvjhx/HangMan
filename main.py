@@ -12,6 +12,7 @@ def play(word):
     guessed_words = []
     tries = 6
     print("Let's Play Hangman")
+    print("Word Length:", len(word))
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
@@ -62,7 +63,7 @@ def play(word):
     if guessed:
         print("Congats, you guesses the word!")
     else:
-        print("Sorry, you ran out of tries. The word was " + word + "Maybe next time")
+        print("Sorry, you ran out of tries. The word was " + word + " Maybe next time")
 
 def display_hangman(tries):
     stages = [  # final state: head, torso, both arms, and both legs
@@ -142,7 +143,7 @@ def main():
     word = get_word()
     play(word)
     while input("Play again?(Y/N)").upper() == "Y":
-        word = get_word
+        word = get_word()
         play(word)
 
 if __name__ =="__main__":
