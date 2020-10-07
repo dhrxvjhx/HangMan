@@ -17,7 +17,7 @@ If your guess is correct:
 If your guess is invalid:
 ![Inavlid img](/images/invalid.png)
 
-Win:
+If you guessed the word correctly/Win:
 ![Win img](/images/win.png)
 
 At the end it will ask you whether you would like to continue playing game or not(Y/N):Type 'Y' for Yes and 'N' for No
